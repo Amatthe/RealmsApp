@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.element--hidden {
+    display: none;
+}
+
+#app {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0.4rem;
+    z-index: 1;
+    background-color: white;
+}
+
+#app-close {
+    position: absolute;
+    right: 6px;
+    top: 6px; 
+}
+
+.button--round {
+    font-size: 1.4rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: #420000;
+    border-radius: 100%;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+#app-close:hover, #app-close:active {
+    background-color: #6b0000;
+}

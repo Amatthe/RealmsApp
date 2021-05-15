@@ -1,0 +1,86 @@
+{
+    "name":"Goblin",
+    "size":"Small",
+    "type":"humanoid",
+    "alignment":"NE",
+    "AC": {
+        "value": 15,
+        "armor": ["leather armor", "shield"]
+    },
+    "HP": {
+        "amount": 2,
+        "die": 6,
+        "bonus": 0
+    },
+    "speed": [
+        "30 ft"
+    ],
+    "abilities": {
+        "STR": -1,
+        "DEX": 2,
+        "CON": 0,
+        "INT": 0,
+        "WIS": -1,
+        "CHA": -1,
+        "melee": 2,
+        "ranged": 2,
+        "spell": null
+    },
+    "skills": [
+        "Stealth +6"
+    ],
+    "senses": [
+        "darkvision 60 ft",
+        "passive Perception 9"
+    ],
+    "languages":["Common", "Goblin"],
+    "challenge": "1/4",
+    "traits":[
+        {
+            "name":"Nimble Escape",
+            "text":"The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+        }
+    ],
+    "actions":[
+        {
+            "actionType":"Attack",
+            "name":"Scimitar",
+            "type": ["Melee", "Weapon"],
+            "toHit": 4,
+            "reach": "5 ft",
+            "range": false,
+            "target": "one target",
+            "hit":{
+                "baseNumber": 1,
+                "baseDie": 6,
+                "bonus": 2,
+                "baseType": "slashing",
+                "extraNumber": false,
+                "extraDie": false,
+                "extraBonus": false,
+                "extraType": false,
+                "text": false
+            }
+        },
+        {
+            "actionType":"Attack",
+            "name":"Shortbow",
+            "type": ["Ranged", "Weapon"],
+            "toHit": 4,
+            "reach": false,
+            "range": "80/320 ft",
+            "target": "one target",
+            "hit":{
+                "baseNumber": 1,
+                "baseDie": 6,
+                "bonus": 2,
+                "baseType": "piercing",
+                "extraNumber": false,
+                "extraDie": false,
+                "extraAbility": false,
+                "extraType": false,
+                "text": false
+            }
+        }
+    ]
+}
