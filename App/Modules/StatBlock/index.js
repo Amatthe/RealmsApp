@@ -178,7 +178,7 @@ export const RenderStatBlock = (props) => {
     // Load a JSON object from local
     const jsonRequest = () => {
         //console.log('Requesting JSON');
-        const request = new Request(`./../../Database/Bestiary/${getCreatureFileName(name)}.json`);
+        const request = new Request(`./Database/Bestiary/${getCreatureFileName(name)}.json`);
         fetch(request)
             .then(response => response.json())
             .then(data => {
