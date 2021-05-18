@@ -88,6 +88,7 @@
     border-radius: 6px;
     border: 1px solid #42000081;
     cursor: pointer;
+    transition: background-color 0.3s 0s;
 }
 
 .creature__btn:hover, .creature__btn:active {

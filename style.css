@@ -36,6 +36,7 @@ html, body {
     width: 2rem;
     height: 2rem;
     background-color: #420000;
+    transition: background-color 0.3s 0s;
     border-radius: 100%;
     color: white;
     text-align: center;
