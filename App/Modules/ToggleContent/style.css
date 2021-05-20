@@ -1,0 +1,27 @@
+.sidebar .eye {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-bottom: 3px solid #420000;
+    background-color: #ffffff42;
+    border-radius: 100%;
+}
+
+.sidebar .eye--open {
+    position: relative;
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 2px solid #420000;
+    background-color: #ffffff;
+    border-radius: 100%;
+}
+
+.sidebar .eye--open::before {
+    content: " ";
+    width: 0.3rem;
+    height: 0.3rem;
+    position: absolute;
+    left: 36%;
+    top: 36%;
+    background-color: #420000;
+    border-radius: 50%;
+}

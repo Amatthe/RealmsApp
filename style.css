@@ -59,9 +59,27 @@ li {
     margin: 1rem 0;
 }
 
+a {
+    color: #6b0000;
+    text-decoration: none;
+}
+
+a.visited {
+    columns: #420000;
+}
+
 .point {
     font-weight: 600;
     font-style: italic;
+}
+
+.creature {
+    font-weight: bold;
+    color: black;
+    background-color: #42000066;
+    /*border: 1px solid #420000;*/
+    padding: 3px 6px;
+    border-radius: 0.4rem;
 }
 
 .element--hidden {
@@ -69,7 +87,7 @@ li {
 }
 
 /* CONTENT */
-#content {
+#main-content {
     padding: 6px;
     max-width: 760px;
     margin: auto;
@@ -93,6 +111,17 @@ li {
     border-left: 2px solid #420000;
     border-right: 2px solid #420000;
     margin-bottom: 1rem;
+}
+
+.sidebar__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.sidebar__content {
+    display: none;
 }
 
 .sidebar-decoration {
@@ -152,12 +181,13 @@ li {
 #app {
     font-weight: 300;
     width: 100%;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     padding: 0.4rem;
     z-index: 1;
     background-color: white;
+    box-shadow: 0 0 20px #000000d2;    
 }
 
 #app-close {
