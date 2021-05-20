@@ -9,13 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="33.866665mm"
-   height="33.866665mm"
-   viewBox="0 0 119.99999 120"
+   width="34.636787mm"
+   height="34.636822mm"
+   viewBox="0 0 122.72877 122.7289"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="RealmsLogo.svg">
+   sodipodi:docname="RealmsLogo.svg"
+   inkscape:export-filename="C:\Users\Amatthematician\Documents\Webdesign\DnD\RealmsApp\Img\RealmsLogo.png"
+   inkscape:export-xdpi="72"
+   inkscape:export-ydpi="72">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -26,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="176.36813"
-     inkscape:cy="89.933148"
+     inkscape:cx="178.99521"
+     inkscape:cy="91.297647"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -43,8 +46,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid4136"
-       originx="-61.515227"
-       originy="-922.67773" />
+       originx="-60.150837"
+       originy="-921.31319" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -62,20 +65,16 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-61.515232,-9.6845301)">
-    <g
-       id="g4156"
-       transform="matrix(1,0,0,0.863753,1.5152323,2.3999882)">
-      <path
-         inkscape:connector-curvature="0"
-         id="path4138"
-         d="m 120,8.4335938 -15.35742,23.2148442 10,15.71289 -14.64258,25 -40,-20 20,60.000002 c 0,0 20,-20.000002 40,-20.000002 20,0 40,20.000002 40,20.000002 l 20,-60.000002 -40,20 -15,-24.642578 10,-15 -15,-24.2851562 z m 0,13.9277342 5,10 -5,5 -5,-5 5,-10 z"
-         style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path4144"
-         d="m 80,117.3622 c 0,0 15,20 40,20 25,0 40,-20 40,-20 0,0 -15,30 -40,30 -25,0 -40,-30 -40,-30 z"
-         style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    </g>
+     transform="translate(-60.150843,-8.3201228)">
+    <path
+       style="fill:#aa4400;fill-rule:evenodd;stroke:#22002b;stroke-width:2.72900033;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 121.51523,9.6845301 -15.35742,20.0518909 10,13.572056 -14.64258,21.593825 -39.999998,-17.27506 20,51.825182 c 0,0 19.999998,-17.275062 39.999998,-17.275062 20,0 40,17.275062 40,17.275062 l 20,-51.825182 -40,17.27506 -15,-21.2851 10,-12.956295 -15,-20.9763769 z m 0,12.0301219 5,8.63753 -5,4.318765 -5,-4.318765 5,-8.63753 z"
+       id="path4138"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#22002b;fill-rule:evenodd;stroke:#22002b;stroke-width:2.72900033;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 81.515232,103.77194 c 0,0 15,17.27506 39.999998,17.27506 25,0 40,-17.27506 40,-17.27506 0,0 -15,25.91259 -40,25.91259 -24.999998,0 -39.999998,-25.91259 -39.999998,-25.91259 z"
+       id="path4144"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
