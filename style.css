@@ -6,17 +6,152 @@ html, body {
     padding: 0;
     margin: 0;
     height: 100%;
+    font-family: 'Roboto', sans-serif;    
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0.2rem 0;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.cover-image {
+    max-width: 10rem;
+    margin: 3rem auto;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h2::first-letter {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+h3::first-letter {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+}
+
+h4::first-letter {
+    font-size: 1.3rem;
+}
+
+ul {
+    padding-left: 24px;
+}
+
+li {
+    margin: 1rem 0;
+}
+
+.point {
+    font-weight: 600;
+    font-style: italic;
 }
 
 .element--hidden {
     display: none;
 }
 
+/* CONTENT */
+#content {
+    padding: 6px;
+    max-width: 760px;
+    margin: auto;
+}
+
+.title {
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.title-description {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    margin: 0.2rem 0;
+    text-align: center;
+}
+
+.sidebar {
+    padding: 6px;
+    background-color: #42000066;
+    border-left: 2px solid #420000;
+    border-right: 2px solid #420000;
+    margin-bottom: 1rem;
+}
+
+.sidebar-decoration {
+    position: relative;    
+}
+
+.sidebar::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: -4px;
+    left: -3px;
+    width: 8px;
+    height: 8px;
+    background-color: #420000;
+    border-radius: 100%;
+}
+
+.sidebar::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: -4px;
+    left: -3px;
+    width: 8px;
+    height: 8px;
+    background-color: #420000;
+    border-radius: 100%;
+}
+
+.sidebar-decoration::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: -4px;
+    right: -3px;
+    width: 8px;
+    height: 8px;
+    background-color: #420000;
+    border-radius: 100%;    
+}
+
+.sidebar-decoration::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: -4px;
+    right: -3px;
+    width: 8px;
+    height: 8px;
+    background-color: #420000;
+    border-radius: 100%;
+}   
+
+/* APP */
+
 #app {
-    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     width: 100%;
-    height: 100%;
     position: absolute;
     left: 0;
     top: 0;
