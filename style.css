@@ -9,7 +9,7 @@ html, body {
     font-family: 'Roboto', sans-serif;   
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, figcaption, .map__marker {
     font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
     padding: 0;
@@ -51,6 +51,13 @@ h4::first-letter {
     font-size: 1.3rem;
 }
 
+h4 img {
+    display: block;
+    margin: -0.1rem 0 0 1rem;
+    height: 1.3rem;
+    width: auto;
+}
+
 ul {
     padding-left: 24px;
 }
@@ -80,6 +87,7 @@ a.visited {
     /*border: 1px solid #420000;*/
     padding: 3px 6px;
     border-radius: 0.4rem;
+    cursor: pointer;
 }
 
 .element--hidden {
@@ -175,7 +183,68 @@ a.visited {
     height: 8px;
     background-color: #420000;
     border-radius: 100%;
-}   
+} 
+
+.map {
+    position: relative;
+    margin: 0.5rem 0 1rem 0;
+    box-shadow: 1px 1px 4px #000000d2;
+}
+
+.map__img {
+    max-width: 100%;
+}
+
+.map__title {
+    position: absolute;
+    left: 0.2rem;
+    top: 0.1rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.map__title::first-letter {
+    font-size: 1.2rem;
+}
+
+.map__marker {
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.2rem;     
+}
+
+.map__marker::first-letter {
+    font-size: 1.4rem;
+}
+
+.map__scale {
+    position: absolute;
+    bottom: 0.1rem;
+    left: 0.2rem;
+    font-size: 0.8rem;
+    text-shadow: 
+    -1px -1px 0 #ffffff,  
+     1px -1px 0 #ffffff,
+     -1px 1px 0 #ffffff,
+      1px 1px 0 #ffffff;
+}
+
+.map__title, .map__marker {
+    text-shadow: 
+    -1px -1px 0 #ffffff,  
+     2px -1px 0 #ffffff,
+     -1px 2px 0 #ffffff,
+      2px 2px 0 #ffffff;
+}
+
+.map__link {
+    display: flex;
+    align-content: flex-start;
+}
+
+.map__rotate {
+    transform: rotate(90deg);
+}
 
 /* APP */
 
