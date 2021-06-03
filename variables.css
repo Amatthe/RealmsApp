@@ -1,0 +1,10 @@
+:root {
+    --col-primary: #420000;
+    --col-primary-light: #660000;
+    --col-primary-dark: #280000;
+    --col-primary-faded: #42000066;
+    --col-text: #111111;
+    --col-text-light: #eeeeee;
+    --col-background: #ffffff;
+    --col-shadow: #111111d2;
+}

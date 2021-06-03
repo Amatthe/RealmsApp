@@ -1,5 +1,5 @@
 .creature__name {
-    color: #420000;
+    color: var(--col-primary);
     font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
     font-size: 1.6rem;
@@ -61,7 +61,7 @@
     font-weight: 400;
     text-transform: uppercase;
     font-size: 1.3rem;
-    color: #420000;
+    color: var(--col-primary);
 }
 
 .creature__section::first-letter {
@@ -73,7 +73,7 @@
     display: block;
     width: 100%;
     height: 1px;
-    background-color: #420000;    
+    background-color: var(--col-primary);    
 }
 
 .creature__classification::after, .creature__stats::after, .creature__abilities::after {
@@ -81,17 +81,17 @@
     display: block;
     width: 100%;
     height: 0.2rem;
-    background-image: linear-gradient(to right, #420000, #4200001e);
+    background-image: linear-gradient(to right, var(--col-primary), var(--col-primary-faded));
 }
 
 .creature__btn {
     border-radius: 6px;
-    border: 1px solid #42000081;
+    border: 1px solid var(--col-primary-faded);
     cursor: pointer;
     transition: background-color 0.3s 0s;
 }
 
 .creature__btn:hover, .creature__btn:active {
-    border: 1px solid #420000;
-    background-color: #4200001e;
+    border: 1px solid var(--col-primary);
+    background-color: var(--col-primary-faded);
 }

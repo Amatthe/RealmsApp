@@ -9,7 +9,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #42000081;
+    background-color: var(--col-primary-faded);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,14 +18,14 @@
 }
 
 .modal__display {
-    background-color: #420000;
+    background-color: var(--col-primary);
     width: 80%;
     padding: 1rem;
     margin: 1rem;
     /*border: 1px solid #ffffff;*/
     border-radius: 6px;
     font-weight: 300;
-    color: #ffffff;
+    color: var(--col-text-light);
     text-align: center;
 }
 

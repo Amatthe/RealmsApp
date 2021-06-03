@@ -37,6 +37,7 @@ const creatureLink = document.querySelector('.creature');
 const creatureName = creatureLink.textContent;
 
 creatureLink.addEventListener('click', () => {
+    closeApp();
     openApp();
     RenderStatBlock({name: creatureName});
 });

@@ -1,7 +1,7 @@
 .sidebar .eye {
     width: 1.2rem;
     height: 1.2rem;
-    border-bottom: 3px solid #420000;
+    border-bottom: 3px solid var(--col-primary);
     background-color: #ffffff42;
     border-radius: 100%;
 }
@@ -10,7 +10,7 @@
     position: relative;
     width: 1.2rem;
     height: 1.2rem;
-    border: 2px solid #420000;
+    border: 2px solid var(--col-primary);
     background-color: #ffffff;
     border-radius: 100%;
 }
@@ -22,6 +22,6 @@
     position: absolute;
     left: 36%;
     top: 36%;
-    background-color: #420000;
+    background-color: var(--col-primary);
     border-radius: 50%;
 }
